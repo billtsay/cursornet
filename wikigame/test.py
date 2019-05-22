@@ -13,9 +13,9 @@ See readme.txt
 '''
 import unittest
 import wikipedia
-from solrup.wikipath import Article, DataDict, op_backlinks, search_path_between_articles
+from wikigame.wikipath import Article, DataDict, op_backlinks, search_path_between_articles
 from datetime import datetime
-from solrup.cachedict import DataDict as DiskDict
+from wikigame.cachedict import DataDict as DiskDict
 
 class Test(unittest.TestCase):
 

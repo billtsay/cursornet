@@ -116,7 +116,7 @@ def search_path(start, end):
             forward.next()
             print("forward : " + str(forward.size()))
     
-from solrup.cachedict import DataDict as CachedDict
+from wikigame.cachedict import DataDict as CachedDict
 
 # depreciated, internal test    
 def cached_search_path(start, end):
